@@ -33,6 +33,7 @@ DELETE FROM animals;
  ROLLBACK;
   SELECT * FROM animals
   DELETE FROM animals
+  BEGIN;
 WHERE date_of_birth > '2022-01-01';
   SELECT * FROM animals;
   SAVEPOINT SP1;
