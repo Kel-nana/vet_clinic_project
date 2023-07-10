@@ -15,12 +15,11 @@ SELECT * FROM animals;
 ROLLBACK;
 SELECT * FROM animals;
 
-BEGIN:
+BEGIN;
 UPDATE animals
 SET species = 'digimon'
 WHERE name LIKE '%mon';
-
-BEGIN;
+SELECT * FROM animals;
 UPDATE animals
 SET species = 'pokemon'
 WHERE species IS NULL;
