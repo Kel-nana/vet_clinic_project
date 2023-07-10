@@ -48,7 +48,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Animals table that consists of details of each animals eg. Name, DoB, etc.**
-- **Queries eg list all animals whose names ends with `'mon'`**
+- **Queries, Update, Delete, Addition of table column**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

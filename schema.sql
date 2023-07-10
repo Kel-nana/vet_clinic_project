@@ -6,3 +6,5 @@ CREATE TABLE animals (
     escape_attempts INT, neutered boolean,
     weight_kg decimal
 );
+ALTER TABLE animals
+ADD COLUMN species varchar(20);
