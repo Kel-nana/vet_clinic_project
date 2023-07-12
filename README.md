@@ -43,12 +43,33 @@
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/"></a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Animals table that consists of details of each animals eg. Name, DoB, etc.**
-- **Queries, Update, Delete, Addition of table column**
+- **[Create database]**
+- **[Create table]**
+- **[Insert into database]**
+- **[Query database]**
+- **[Update and delete from database]**
+- **[SQl transactions]**
+- **[SQl Aggregates]**
+- **[Alter table attributes and constraints]**
+- **[SQL JOIN]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +110,7 @@ Example commands:
 To run the project, execute the following command:
 
 ```sh
-  psql -u postgres
+  psql -U postgres
 ```
 
 > Enter your password and continue with sql commands.
@@ -127,9 +148,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add join table for visits**
-- **Database performance edit**
-- **Add database schema diagram**
+- [ ] **[Using a schema]**
+- [ ] **[add "join table" for visits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
