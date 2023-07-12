@@ -32,8 +32,7 @@ UPDATE animals SET species_id = (SELECT id FROM species WHERE name = 'Digimon') 
 
 UPDATE animals SET species_id = (SELECT id FROM species WHERE name = 'Pokemon') WHERE species_id IS NULL;
 
-UPDATE animals\
-
+UPDATE animals
 SET owner_id =
   CASE
     WHEN name = 'Agumon' THEN (SELECT id FROM owners WHERE full_name = 'Sam Smith')
