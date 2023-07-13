@@ -28,12 +28,6 @@ ALTER TABLE animals ADD species_id int REFERENCES species(id);
 ALTER TABLE animals ADD owner_id int REFERENCES owners(id);
 
 /* Vet clinic database:  "join table"  */
-CREATE TABLE vets(
-    id SERIAL PRIMARY KEY,
-    name varchar,
-    age int,
-    date_of_graduation date
-);
 
 CREATE TABLE vets(
     id SERIAL PRIMARY KEY,
