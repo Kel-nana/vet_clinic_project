@@ -84,7 +84,7 @@ SELECT o.full_name, COUNT(a.name) as total_animals
   FROM animals a
   JOIN owners o ON a.owner_id = o.id GROUP BY(o.full_name) ORDER BY(total_animals) DESC;
 
--- new Queries
+/* Vet clinic database:  "join table"  */
   SELECT a.name,v.date_of_visit FROM animals a
   JOIN visits v ON a.id = v.animal_id
   JOIN vets ve ON v.vet_id = ve.id WHERE ve.name ='William Tatcher' ORDER BY(v.date_of_visit) DESC

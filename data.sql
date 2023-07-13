@@ -42,6 +42,7 @@ SET owner_id =
     WHEN name IN ('Angemon', 'Boarmon') THEN (SELECT id FROM owners WHERE full_name = 'Dean Winchester')
   END;
 
+/* Vet clinic database:  "join table"  */
   INSERT INTO vets(name,age,date_of_graduation)
  VALUES
   ('William Tatcher', 45, '2000-04-23'),
