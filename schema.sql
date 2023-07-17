@@ -47,3 +47,5 @@ CREATE TABLE visits (
   vet_id int REFERENCES vets(id)
 );
 
+/* Vet clinic database: database performance audit */
+ALTER TABLE OWNERS ADD COLUMN EMAIL VARCHAR(120);
