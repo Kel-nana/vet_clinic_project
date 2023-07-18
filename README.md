@@ -2,25 +2,23 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 **vet-clinic** ](#-vet-clinic-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Author : ](#-author--)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -73,6 +71,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -109,38 +108,39 @@ To run the project, execute the following command:
 
 ### Run tests
 
-To run tests, run the following command: N/A
+To run tests, run the following command:
+
+```sh
+  SELECT * FROM "table_name"
+```
+
 
 ### Deployment
 
 You can deploy this project using:
 
-<!-
-
 ```sh
-N/A
-
+  \c clinic;
 ```
 
--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author : <a name="authors">Kelvin Irungu</a>
+## 👥 Author : <a name="authors"></a>
+
+👤 **Kelvin Irungu**
 
 - GitHub: [@Kel-nana](https://github.com/Kel-nana)
 - Linkedin: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
 - Twitter: [@kelvin-irungu](https://twitter.com/home)
 
-  
 👤 **Mahamadou Nouridine**
 
 - GitHub: [mahamadou-nouridine](https://github.com/mahamadou-nouridine)
 - Linkedin: [mahamadou-nouridine-mamoudou-souley-2b424a1a5](https://www.linkedin.com/in/mahamadou-nouridine)
 - Twitter: [Nouridine_Dino](https://twitter.com/Nouridine_Dino)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,6 +168,10 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 > If the project was great as your view, don't hesitate to share and give it a star.
+
+```sh
+  https://github.com/Kel-nana?tab=repositories
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
